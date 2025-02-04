@@ -21,27 +21,27 @@ int main() // c언어에서 가장 먼저 실행되는 함수. 사실상 이 함
    if(operator == '+') //덧셈 연산자 인식
    {
        output_number = input_number_1 + input_number_2; //덧셈 계산
-       printf("계산 결과: %d",output_number); // 덧셈 계산 결과 출력
+       printf("계산 결과: %d\n",output_number); // 덧셈 계산 결과 출력
    }
     else if(operator == '-')//뺄셈 연산자 인식
    {
        output_number = input_number_1 - input_number_2;//뺄셈 계산
-       printf("계산 결과: %d",output_number); // 뺄셈 계산 결과 출력
+       printf("계산 결과: %d\n",output_number); // 뺄셈 계산 결과 출력
    }
     else if(operator == '*')//곱셈 연산자 인식
    {
        output_number = input_number_1 * input_number_2;//곱셈 계산
-       printf("계산 결과: %d",output_number); // 곱셈 계산 결과 출력
+       printf("계산 결과: %d\n",output_number); // 곱셈 계산 결과 출력
    }
     else if(operator == '/')//나눗셈 연산자 인식
    {
        output_number = input_number_1 / input_number_2;//나눗셈 계산
-       printf("계산 결과: %d",output_number); // 나눗셈 계산 결과 출력
+       printf("계산 결과: %d\n",output_number); // 나눗셈 계산 결과 출력
    }
      else if(operator == '%')//나머지 연산자 인식
    {
        output_number = input_number_1 % input_number_2;//나머지 계산
-       printf("계산 결과: %d",output_number); // 나머지 계산 결과 출력
+       printf("계산 결과: %d\n",output_number); // 나머지 계산 결과 출력
    }
     else // 위의 모든 조건이 성립되지 않는 경우
         printf("알 수 없는 수식 입니다."); // 연산자 인식 실패시 오류 메세지 출력
