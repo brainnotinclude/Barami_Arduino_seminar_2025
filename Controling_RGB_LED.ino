@@ -1,4 +1,4 @@
-//아두이노 RGB 실습파일
+//아두이노 RGB 실습파일_실제 작동 안시켜봄.
 const int redpin=11;
 const int greenpin=9;
 const int bluepin=10;
