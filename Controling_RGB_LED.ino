@@ -1,6 +1,6 @@
 const int redpin=11;
-const int greenpin=10;
-const int bluepin=9;
+const int greenpin=9;
+const int bluepin=10;
 const int band_rate=9600;
 int RedValue = 0;
 int GreenValue = 0;
